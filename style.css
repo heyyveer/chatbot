@@ -1,0 +1,88 @@
+/* Chat Container */
+.chat-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Chat Box */
+#chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Messages (User and Bot) */
+.message {
+    margin-bottom: 10px;
+}
+
+.user {
+    text-align: left;
+    color: #007bff;
+}
+
+.bot {
+    text-align: right;
+    color: #28a745;
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    align-items: center;
+    background: #fff;
+}
+
+/* Input Field */
+input {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 15px;
+    background: #f4f4f4;
+    margin-right: 10px;
+    height: 35px;
+}
+
+/* Send Button */
+button {
+    padding: 8px 14px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 14px;
+    height: 35px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Mic Button */
+#mic-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#mic-btn:active {
+    transform: scale(0.9); /* Add a little animation on click */
+}
